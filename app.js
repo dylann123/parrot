@@ -11,8 +11,8 @@ app.get("/", (req, res) => {
     res.send(phrase)
 })
 app.post("/", (req, res) => {
-    phrase = req.body.xpath
-    console.log(req.body.xpath);
+    phrase = req.body
+    console.log(req.body);
     res.send("success")
 })
 
