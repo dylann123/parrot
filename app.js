@@ -15,6 +15,6 @@ app.post("/", (req, res) => {
     res.send("success")
 })
 
-app.listen(8080, () => {
-    console.log("listening at " + 8080)
+app.listen(process.env.PORT, () => {
+    console.log("listening")
 })
