@@ -16,5 +16,5 @@ app.post("/", (req, res) => {
 })
 
 app.listen(process.env.PORT, () => {
-    console.log("listening")
+    console.log("listening at ")
 })
